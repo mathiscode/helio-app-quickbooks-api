@@ -1,0 +1,27 @@
+{
+  "name": "helio-app-quickbooks-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": "git@github.com:mathiscode/helio-app-quickbooks-api.git",
+  "author": "J.R. Mathis <https://github.com/mathiscode>",
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint src",
+    "test:watch": "nodemon -w src --exec \"eslint src\""
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "intuit-oauth": "^3.0.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
